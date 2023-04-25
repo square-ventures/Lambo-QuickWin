@@ -2,7 +2,7 @@
   <div class="main-container">
     <div class="main-wrapper">
       <img
-        src="/assets/logo_Quickwin.svg"
+        src="/assets/logo_Quicktwin.svg"
         alt=""
         class="main-logo"
         w="186"
