@@ -1,1 +1,1 @@
-export { default } from "file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

@@ -1,46 +1,35 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { provider, isWindows } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/std-env/dist/index.mjs';
-import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, readBody, createError, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/h3/dist/index.mjs';
-import { createRenderer } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import devalue from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/@nuxt/devalue/dist/devalue.mjs';
-import { renderToString } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/vue/server-renderer/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/scule/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, withQuery } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/radix3/dist/index.mjs';
-import { generateJSON } from 'file:///Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/node_modules/@intlify/bundle-utils/index.mjs';
+import { provider, isWindows } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/std-env/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, getRequestHeaders, setResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery, createError } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/h3/dist/index.mjs';
+import { createRenderer } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import devalue from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/@nuxt/devalue/dist/devalue.mjs';
+import { renderToString } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/vue/server-renderer/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/scule/dist/index.mjs';
+import { hash } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, withQuery } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/ufo/dist/index.mjs';
+import { createStorage } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/unstorage/drivers/fs.mjs';
+import defu from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/defu/dist/defu.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/norbert/Projects/Lambo-QuickWin/node_modules/radix3/dist/index.mjs';
 
-const inlineAppConfig = {};
-
-
-
-const appConfig = defuFn(inlineAppConfig);
-
-const _runtimeConfig = {"app":{"baseURL":"/mateadmin/quickwin/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"envPrefix":"NUXT_","routeRules":{"/__nuxt_error":{"cache":false}}},"public":{"google_analytics_id":"G-VEY0WK983H","production_mode":false,"i18n":{"experimental":{"jsTsFormatResource":false},"baseUrl":""}},"i18n":{"precompile":{"strictMessage":true,"escapeHtml":false}}};
+const _runtimeConfig = {"app":{"baseURL":"/mateadmin/quickwin/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"envPrefix":"NUXT_","routeRules":{"/__nuxt_error":{"cache":false}}},"public":{"google_analytics_id":"G-VEY0WK983H","production_mode":false}};
 const ENV_PREFIX = "NITRO_";
 const ENV_PREFIX_ALT = _runtimeConfig.nitro.envPrefix ?? process.env.NITRO_ENV_PREFIX ?? "_";
-overrideConfig(_runtimeConfig);
-const runtimeConfig = deepFreeze(_runtimeConfig);
-const useRuntimeConfig = () => runtimeConfig;
-deepFreeze(appConfig);
-function getEnv(key) {
+const getEnv = (key) => {
   const envKey = snakeCase(key).toUpperCase();
   return destr(
     process.env[ENV_PREFIX + envKey] ?? process.env[ENV_PREFIX_ALT + envKey]
   );
-}
+};
 function isObject(input) {
   return typeof input === "object" && !Array.isArray(input);
 }
@@ -58,6 +47,9 @@ function overrideConfig(obj, parentKey = "") {
     }
   }
 }
+overrideConfig(_runtimeConfig);
+const config$1 = deepFreeze(_runtimeConfig);
+const useRuntimeConfig = () => config$1;
 function deepFreeze(object) {
   const propNames = Object.getOwnPropertyNames(object);
   for (const name of propNames) {
@@ -69,7 +61,7 @@ function deepFreeze(object) {
   return Object.freeze(object);
 }
 
-const serverAssets = [{"baseName":"server","dir":"/Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/norbert/Projects/Lambo-QuickWin/server/assets"}];
 
 const assets = createStorage();
 
@@ -79,17 +71,14 @@ for (const asset of serverAssets) {
 
 const storage = createStorage({});
 
+const useStorage = () => storage;
+
 storage.mount('/assets', assets);
 
-storage.mount('i18n', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/.nuxt/i18n","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
-
-function useStorage(base = "") {
-  return base ? prefixStorage(storage, base) : storage;
-}
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/norbert/Projects/Lambo-QuickWin","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/norbert/Projects/Lambo-QuickWin/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/norbert/Projects/Lambo-QuickWin/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/norbert/Projects/Lambo-QuickWin/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 const defaultCacheOptions = {
   name: "_",
@@ -97,10 +86,10 @@ const defaultCacheOptions = {
   swr: true,
   maxAge: 1
 };
-function defineCachedFunction(fn, opts = {}) {
+function defineCachedFunction(fn, opts) {
   opts = { ...defaultCacheOptions, ...opts };
   const pending = {};
-  const group = opts.group || "nitro/functions";
+  const group = opts.group || "nitro";
   const name = opts.name || fn.name || "_";
   const integrity = hash([opts.integrity, fn, opts]);
   const validate = opts.validate || (() => true);
@@ -115,7 +104,7 @@ function defineCachedFunction(fn, opts = {}) {
     const _resolve = async () => {
       const isPending = pending[key];
       if (!isPending) {
-        if (entry.value !== void 0 && (opts.staleMaxAge || 0) >= 0 && opts.swr === false) {
+        if (entry.value !== void 0 && (opts.staleMaxAge || 0) >= 0) {
           entry.value = void 0;
           entry.integrity = void 0;
           entry.mtime = void 0;
@@ -123,14 +112,7 @@ function defineCachedFunction(fn, opts = {}) {
         }
         pending[key] = Promise.resolve(resolver());
       }
-      try {
-        entry.value = await pending[key];
-      } catch (error) {
-        if (!isPending) {
-          delete pending[key];
-        }
-        throw error;
-      }
+      entry.value = await pending[key];
       if (!isPending) {
         entry.mtime = Date.now();
         entry.integrity = integrity;
@@ -409,7 +391,12 @@ function defineRenderHandler(handler) {
       for (const header in response.headers) {
         event.node.res.setHeader(header, response.headers[header]);
       }
-      setResponseStatus(event, response.statusCode, response.statusMessage);
+      if (response.statusCode) {
+        event.node.res.statusCode = response.statusCode;
+      }
+      if (response.statusMessage) {
+        event.node.res.statusMessage = response.statusMessage;
+      }
     }
     return typeof response.body === "string" ? response.body : JSON.stringify(response.body);
   });
@@ -452,7 +439,10 @@ const errorHandler = (async function errorhandler(error, event) {
     stack: statusCode !== 404 ? `<pre>${stack.map((i) => `<span class="stack${i.internal ? " internal" : ""}">${i.text}</span>`).join("\n")}</pre>` : "",
     data: error.data
   };
-  setResponseStatus(event, errorObject.statusCode !== 200 && errorObject.statusCode || 500, errorObject.statusMessage);
+  event.node.res.statusCode = errorObject.statusCode !== 200 && errorObject.statusCode || 500;
+  if (errorObject.statusMessage) {
+    event.node.res.statusMessage = errorObject.statusMessage;
+  }
   if (error.unhandled || error.fatal) {
     const tags = [
       "[nuxt]",
@@ -464,7 +454,7 @@ const errorHandler = (async function errorhandler(error, event) {
     console.error(tags, errorObject.message + "\n" + stack.map((l) => "  " + l.text).join("  \n"));
   }
   if (isJsonRequest(event)) {
-    setResponseHeader(event, "Content-Type", "application/json");
+    event.node.res.setHeader("Content-Type", "application/json");
     event.node.res.end(JSON.stringify(errorObject));
     return;
   }
@@ -478,130 +468,27 @@ const errorHandler = (async function errorhandler(error, event) {
     {
       errorObject.description = errorObject.message;
     }
-    setResponseHeader(event, "Content-Type", "text/html;charset=UTF-8");
+    event.node.res.setHeader("Content-Type", "text/html;charset=UTF-8");
     event.node.res.end(template(errorObject));
     return;
   }
   for (const [header, value] of res.headers.entries()) {
     setResponseHeader(event, header, value);
   }
-  setResponseStatus(event, res.status && res.status !== 200 ? res.status : void 0, res.statusText);
+  if (res.status && res.status !== 200) {
+    event.node.res.statusCode = res.status;
+  }
+  if (res.statusText) {
+    event.node.res.statusMessage = res.statusText;
+  }
   event.node.res.end(await res.text());
 });
 
-function buildAssetsURL(...path) {
-  return joinURL(publicAssetsURL(), useRuntimeConfig().app.buildAssetsDir, ...path);
-}
-function publicAssetsURL(...path) {
-  const publicBase = useRuntimeConfig().app.cdnURL || useRuntimeConfig().app.baseURL;
-  return path.length ? joinURL(publicBase, ...path) : publicBase;
-}
-
-const CONFIG_KEY = "i18n";
-const BUILD_CONFIG_KEY = "config";
-const configStorage = prefixStorage(useStorage(), CONFIG_KEY);
-const PRECOMPILED_LOCALE_KEY = "i18n:locales";
-const localeStorage = prefixStorage(useStorage(), PRECOMPILED_LOCALE_KEY);
-const resolveKey = (key) => `${key}.js`;
-const configKey = (configId) => `${BUILD_CONFIG_KEY}-${configId}`;
-const _RHk7wh = defineEventHandler(async (event) => {
-  const body = await readBody(event);
-  validate(body);
-  const cacheCode = await getCacheCode(body);
-  if (cacheCode) {
-    await setResponseHeader(event, "content-type", "text/javascript");
-    return cacheCode.toString();
-  }
-  const [code, errors] = generateCode(body);
-  if (errors.length > 0) {
-    throw createError({ statusMessage: errors.join("|"), statusCode: 400 });
-  }
-  await setCacheCode(code, body);
-  await setResponseHeader(event, "content-type", "text/javascript");
-  return code;
-});
-function validate(body) {
-  if (!body.type) {
-    throw createError({ statusMessage: `require the 'type'`, statusCode: 400 });
-  }
-  if (body.type === "locale") {
-    if (!body.locale) {
-      throw createError({ statusMessage: `require the 'locale'`, statusCode: 400 });
-    }
-  }
-  if (body.type === "config") {
-    if (!body.configId) {
-      throw createError({ statusMessage: `require the 'configId'`, statusCode: 400 });
-    }
-  }
-  if (!body.resource) {
-    throw createError({ statusMessage: `require the 'resource'`, statusCode: 400 });
-  }
-}
-async function getCacheCode({ type, locale, configId }) {
-  if (type === "locale") {
-    return await localeStorage.getItem(resolveKey(locale));
-  } else if (type === "config") {
-    return await configStorage.getItem(resolveKey(configKey(configId)));
-  } else {
-    return null;
-  }
-}
-function generateCode(body) {
-  const errors = [];
-  const {
-    i18n: { strictMessage, escapeHtml }
-  } = useRuntimeConfig();
-  const env = "development" ;
-  let gen = "";
-  if (body.type === "locale") {
-    const { code } = generateJSON(JSON.stringify(body.resource), {
-      env,
-      strictMessage,
-      escapeHtml,
-      onError: (error) => {
-        errors.push(error);
-      }
-    });
-    gen = code;
-  } else if (body.type === "config") {
-    gen += `export default {
-`;
-    const codes = [];
-    Object.keys(body.resource).reduce((codes2, key) => {
-      const { code } = generateJSON(JSON.stringify(body.resource[key]), {
-        type: "bare",
-        env,
-        strictMessage,
-        escapeHtml,
-        onError: (error) => {
-          errors.push(error);
-        }
-      });
-      codes2.push(`  ${JSON.stringify(key)}: ${code},
-`);
-      return codes2;
-    }, codes);
-    gen += codes.join("");
-    gen += `}
-`;
-  }
-  return [gen, errors];
-}
-async function setCacheCode(code, { type, locale, configId }) {
-  if (type === "locale") {
-    await localeStorage.setItem(resolveKey(locale), code);
-  } else if (type === "config") {
-    await configStorage.setItem(resolveKey(configKey(configId)), code);
-  }
-}
-
-const _lazy_OAU2AQ = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_c8USOR = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_OAU2AQ, lazy: true, middleware: false, method: undefined },
-  { route: '/__i18n__/precompile', handler: _RHk7wh, lazy: false, middleware: false, method: "post" },
-  { route: '/**', handler: _lazy_OAU2AQ, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_c8USOR, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_c8USOR, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -723,19 +610,27 @@ const _template = (messages) => _render({ messages: { ..._messages, ...messages 
 const template = _template;
 
 const errorDev = /*#__PURE__*/Object.freeze({
-      __proto__: null,
-      template: template
+  __proto__: null,
+  template: template
 });
 
 const appRootId = "__nuxt";
 
 const appRootTag = "div";
 
+function buildAssetsURL(...path) {
+  return joinURL(publicAssetsURL(), useRuntimeConfig().app.buildAssetsDir, ...path);
+}
+function publicAssetsURL(...path) {
+  const publicBase = useRuntimeConfig().app.cdnURL || useRuntimeConfig().app.baseURL;
+  return path.length ? joinURL(publicBase, ...path) : publicBase;
+}
+
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('/Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('/Users/norbert/Projects/Lambo-QuickWin/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getStaticRenderedHead = () => Promise.resolve().then(function () { return _virtual__headStatic$1; }).then((r) => r.default || r);
-const getServerEntry = () => import('/Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('/Users/norbert/Projects/Lambo-QuickWin/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {
@@ -773,14 +668,13 @@ const getSPARenderer = lazyCachedFunction(async () => {
   const renderToString = (ssrContext) => {
     const config = useRuntimeConfig();
     ssrContext.payload = {
-      _errors: {},
       serverRendered: false,
+      config: {
+        public: config.public,
+        app: config.app
+      },
       data: {},
       state: {}
-    };
-    ssrContext.config = {
-      public: config.public,
-      app: config.app
     };
     ssrContext.renderMeta = ssrContext.renderMeta ?? getStaticRenderedHead;
     return Promise.resolve(result);
@@ -812,12 +706,11 @@ const renderer = defineRenderHandler(async (event) => {
     url,
     event,
     runtimeConfig: useRuntimeConfig(),
-    noSSR: event.context.nuxt?.noSSR || routeOptions.ssr === false || (false),
+    noSSR: !!event.node.req.headers["x-nuxt-no-ssr"] || routeOptions.ssr === false || (false),
     error: !!ssrError,
     nuxt: void 0,
     /* NuxtApp */
     payload: ssrError ? { error: ssrError } : {},
-    _payloadReducers: {},
     islandContext
   };
   const renderer = ssrContext.noSSR ? await getSPARenderer() : await getSSRRenderer();
@@ -825,9 +718,6 @@ const renderer = defineRenderHandler(async (event) => {
     throw !ssrError && ssrContext.payload?.error || error;
   });
   await ssrContext.nuxt?.hooks.callHook("app:rendered", { ssrContext });
-  if (event.node.res.headersSent || event.node.res.writableEnded) {
-    return;
-  }
   if (ssrContext.payload?.error && !ssrError) {
     throw ssrContext.payload.error;
   }
@@ -837,14 +727,13 @@ const renderer = defineRenderHandler(async (event) => {
   }
   const renderedMeta = await ssrContext.renderMeta?.() ?? {};
   const inlinedStyles = "";
-  const NO_SCRIPTS = routeOptions.experimentalNoScripts;
   const htmlContext = {
     island: Boolean(islandContext),
     htmlAttrs: normalizeChunks([renderedMeta.htmlAttrs]),
     head: normalizeChunks([
       renderedMeta.headTags,
       null,
-      NO_SCRIPTS ? null : _rendered.renderResourceHints(),
+      _rendered.renderResourceHints(),
       _rendered.renderStyles(),
       inlinedStyles,
       ssrContext.styles
@@ -856,8 +745,8 @@ const renderer = defineRenderHandler(async (event) => {
     ]),
     body: [_rendered.html],
     bodyAppend: normalizeChunks([
-      NO_SCRIPTS ? void 0 : renderPayloadScript({ ssrContext, data: ssrContext.payload }),
-      routeOptions.experimentalNoScripts ? void 0 : _rendered.renderScripts(),
+      `<script>window.__NUXT__=${devalue(ssrContext.payload)}<\/script>`,
+      _rendered.renderScripts(),
       // Note: bodyScripts may contain tags other than <script>
       renderedMeta.bodyScripts
     ])
@@ -908,14 +797,10 @@ function renderPayloadResponse(ssrContext) {
     statusCode: ssrContext.event.node.res.statusCode,
     statusMessage: ssrContext.event.node.res.statusMessage,
     headers: {
-      "content-type": "text/javascript;charset=utf-8",
+      "content-type": "text/javascript;charset=UTF-8",
       "x-powered-by": "Nuxt"
     }
   };
-}
-function renderPayloadScript(opts) {
-  opts.data.config = opts.ssrContext.config;
-  return `<script>window.__NUXT__=${devalue(opts.data)}<\/script>`;
 }
 function splitPayload(ssrContext) {
   const { data, prerenderedAt, ...initial } = ssrContext.payload;
@@ -926,14 +811,14 @@ function splitPayload(ssrContext) {
 }
 
 const renderer$1 = /*#__PURE__*/Object.freeze({
-      __proto__: null,
-      default: renderer
+  __proto__: null,
+  default: renderer
 });
 
 const _virtual__headStatic = {"headTags":"<meta charset=\"utf-8\">\n<title>Lambo Promo - QuickWin</title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"icon\" type=\"image/*\" href=\"/favicon.ico\">\n<link rel=\"stylesheet\" href=\"https://fonts.cdnfonts.com/css/gilroy-bold\">","bodyTags":"","bodyTagsOpen":"","htmlAttrs":"","bodyAttrs":""};
 
 const _virtual__headStatic$1 = /*#__PURE__*/Object.freeze({
-      __proto__: null,
-      default: _virtual__headStatic
+  __proto__: null,
+  default: _virtual__headStatic
 });
 //# sourceMappingURL=index.mjs.map

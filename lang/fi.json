@@ -10,7 +10,6 @@
     "thePromotionIsOpen":"Kampanja on avoin kaikille käyttäjille, jotka ovat rekisteröityneet kasinolle ennen 27. huhtikuuta kello 23.59.",
     "onceThePromotionStarts":"Kampanjan alkaessa uusia osallistujia ei enää hyväksytä.",
     "inOrderToParticipateIn":"Osallistuakseen kampanjaan pelaajien on asetettava vähintään yksi panos/veto kasinolla tai urheiluvedonlyönnissä.",
-    "missingOneDayOf":"Yhdenkin panostus-/vedonlyöntipäivän laiminlyönti johtaa pelaajan poistamiseen kampanjasta.",
     "theSystemTimeisInGMT":"Järjestelmän aika on GMT-aikaa. Näin ollen kelpoisuusehdot täyttävä(t) panos (panokset) tai veto (vedot) on asetettava klo 00.00.01 GMT ja 23.59.59 GMT välisenä aikana, jotta ne voidaan ottaa huomioon kampanjassa.",
     "atTheEndOfEachMonth":"Kunkin kuukauden lopussa kaikki jäljellä olevat pelaajat osallistuvat arvontaan, jossa voi voittaa iPhone 14:n.",
     "theBigPrizeIsA2021":"Pääpalkintona on vuoden 2021 Lamborghini Huracan tai sen arvoa vastaava rahasumma.",
@@ -30,5 +29,7 @@
     "promotionStartsIn":"Kampanja alkaa",
     "casinolyIsOperated":"QuickWin kasinon toiminnasta vastaa Buton Group ja se toimii Curacaolla myönnetyllä lisenssinumerolla 8048/JAZ",
     "weUnderstandThatAnything":"We understand that anything can happen so there will be a Joker day - a player can skip one day (Joker day) of playing and still be in the game. ",
-    "thisEssentiallyMeans":"This essentially means that missing more than 1 day of betting will lead to elimination from the promotion. No need to announce Joker day in advance, nor after the fact - we will automatically factor it in. "
+    "thisEssentiallyMeans":" Käytännössä tämä tarkoittaa, että useamman kuin yhden panostuspäivän väliin jättäminen johtaa kampanjasta poistamiseen. Sinun ei tarvitse ilmoittaa jokeripäivääsi ennakkoon, eikä sen jo mentyä – me pidämme kirjaa kaikesta. ",
+    "remainingPlayers": "Viimeiset 10 pelaajaa",
+    "playerNames": "Pelaajien nimet"
 }

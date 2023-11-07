@@ -1,9 +1,9 @@
 {
-  "_hash": "Vt2Bpn3sky",
+  "_hash": "fXPf7OjvRM",
   "project": {
-    "rootDir": "/Users/andreisoftgenius/Documents/LAMBO/lambo-promo-QuickWin"
+    "rootDir": "/Users/norbert/Projects/Lambo-QuickWin"
   },
   "versions": {
-    "nuxt": "3.4.2"
+    "nuxt": "3.2.2"
   }
 }

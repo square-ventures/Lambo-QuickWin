@@ -43,6 +43,8 @@
         </div>
       </div>
 
+      <Players />
+
       <div class="bottom-gallery">
         <h2 class="bottom-gallery-text">{{ $t("thePrizeInAction") }}</h2>
         <iframe
@@ -88,7 +90,7 @@
           @hide="onHide"
         ></vue-easy-lightbox>
 
-        <div class="modal-overlay" v-show="showModal">
+        <div class="modal-overlay" v-if="showModal">
           <div class="modal">
             <h2>{{ $t("termsAndConditions") }}</h2>
             <p>1.{{ $t("thePromotionStarts") }}</p>
@@ -147,6 +149,12 @@ export default defineComponent({
     const showModal = ref(false);
     const mySwiper = ref();
 
+    const breakpoints = {
+      600: {
+        slidesPerView: 3,
+      },
+    };
+
     const openModal = () => {
       showModal.value = true;
       document.body.style.overflow = "hidden";
@@ -155,11 +163,6 @@ export default defineComponent({
     const closeModal = () => {
       showModal.value = false;
       document.body.style.overflow = "auto";
-    };
-    const breakpoints = {
-      600: {
-        slidesPerView: 3,
-      },
     };
 
     const controlledSwiper = ref(null);
